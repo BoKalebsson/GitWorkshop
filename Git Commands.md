@@ -50,4 +50,25 @@ Commited the changes.
 4. Push the new branch to the remote repository. <br>
 Used "git push origin feature-branch."
 
+## Task 4 (Optional): Cloning and Updating a Remote Repository
+
+1. Clone the following repository: 
+https://github.com/Lexicon-Smaland/Hello-World.git<br>
+Used the "git clone https://github.com/Lexicon-Smaland/Hello-World" inside the path of my Git Workshop repository in the terminal.
+
+2. Remove the Existing Remote Link and Link to a New Repository. <br>
+First you go into the folder of the cloned repository, and check what remote git it's pointing to with the "git remote -v" command. <br>
+Then you delete the remote pointer with "git remote remove origin". <br>
+To link to a new repository I used the "git remote add origin https://github.com/BoKalebsson/GitWorkshop"
+
+
+4. Add or modify files in the cloned project and commit the changes. <br>
+Went back to my original Git Workshop folder, and used "git add ." command.<br>
+Commited the changes.
+
+5. Push all the committed changes to the newly linked repository. <br>
+Used the "git push origin master" command. 
+
+
+
 
