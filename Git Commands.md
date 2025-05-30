@@ -35,3 +35,19 @@ Used the "git remote add origin https://github.com/BoKalebsson/GitWorkshop.git" 
 First I updated the Git Commands.md file, and commited the changes locally. <br>
 Then I used the "git push origin master" command to push the files to the remote repository.
 
+## Task 3 (Optional): Working with Branches
+
+1. Create a new branch called feature-branch: <br>
+Used the "git branch feature-branch" command.
+
+2. Switch to the new branch. <br>
+Used "git switch feature-branch" to switch to the new branch.<br>
+
+3. Make changes and commit them. <br>
+Used "wsl echo "Very cool feature! > coolfeature.txt".<br>
+Commited the changes. 
+
+4. Push the new branch to the remote repository. <br>
+Used "git push origin feature-branch."
+
+
