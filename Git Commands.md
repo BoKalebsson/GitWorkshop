@@ -54,12 +54,12 @@ Used "git push origin feature-branch."
 
 1. Clone the following repository: 
 https://github.com/Lexicon-Smaland/Hello-World.git<br>
-Used the "git clone https://github.com/Lexicon-Smaland/Hello-World" inside the path of my Git Workshop repository in the terminal.
+Used the "git clone https://github.com/Lexicon-Smaland/Hello-World" into a separate folder, and not in the folder for Git Workshop. 
 
 2. Remove the Existing Remote Link and Link to a New Repository. <br>
 First you go into the folder of the cloned repository, and check what remote git it's pointing to with the "git remote -v" command. <br>
 Then you delete the remote pointer with "git remote remove origin". <br>
-To link to a new repository I used the "git remote add origin https://github.com/BoKalebsson/GitWorkshop"
+To link to a new repository I used the "git remote add origin https://github.com/BoKalebsson/HelloWorld"
 
 
 4. Add or modify files in the cloned project and commit the changes. <br>
@@ -67,7 +67,7 @@ Went back to my original Git Workshop folder, and used "git add ." command.<br>
 Commited the changes.
 
 5. Push all the committed changes to the newly linked repository. <br>
-Used the "git push origin master" command. 
+Used the "git push -u origin master" command. 
 
 
 
