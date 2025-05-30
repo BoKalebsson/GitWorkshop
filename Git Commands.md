@@ -22,5 +22,16 @@ Committed the changes.
 Used the "git log" to see all my commits.<br>
 Then I used the git command hash for the previous commit, to restore dog.txt to it's proper language with "git restore --source=9aba9b2 dog.txt" command.<br>
 Committed the changes.
- 
+
+## Task 2: Connecting to a Remote Repository
+
+1. Create a remote repository on a Git hosting service: <br>
+Created "https://github.com/BoKalebsson/GitWorkshop.git" on GitHub. <br>
+
+2. Add the remote repository to your local project:<br>
+Used the "git remote add origin https://github.com/BoKalebsson/GitWorkshop.git" command.<br>
+
+3. Push all local changes to the remote repository: <br>
+First I updated the Git Commands.md file, and commited the changes locally. <br>
+Then I used the "git push origin master" command to push the files to the remote repository.
 
