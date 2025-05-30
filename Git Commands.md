@@ -14,5 +14,13 @@ Used the "git add ." to add the entire folder to the staged area. You can also a
 Used the "git commit -m "First commit, and added a cat." to commit the files in the staged area.
 
 4. Make additional changes to the files and commit them: <br>
-Used "wsl echo "Bark, bark, bark!" > dog.txt" 
+Used "wsl echo "Bark, bark, bark!" > dog.txt" <br>
+Updated the file with "wsl echo "Voff, voff, voff!" > dog.txt" <br>
+Committed the changes.
+
+5. Restore one of the files to a specific version in the repository:<br>
+Used the "git log" to see all my commits.<br>
+Then I used the git command hash for the previous commit, to restore dog.txt to it's proper language with "git restore --source=9aba9b2 dog.txt" command.<br>
+Committed the changes.
+ 
 
